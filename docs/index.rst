@@ -46,10 +46,24 @@ Getting started
     
     .. sourcecode:: text 
 
+        Output:
+        # db = SubDB(dbroot)
         There are 80 subjects found under directory "RibFrac2020/ribfrac-val-images" as follows:
-        [...,
+        ['RibFrac421-image.nii.gz', 
+        'RibFrac422-image.nii.gz', 
+        'RibFrac423-image.nii.gz', 
+        'RibFrac424-image.nii.gz',
         ...,]
-
+        # db.prints()
+        DB Name: ribfrac-val-images
+        DB Path: /nas001/haoyou/ImageDB/publicDB/RibFrac2020/ribfrac-val-images
+        Subject Names:
+        ['RibFrac421-image.nii.gz', 
+        'RibFrac422-image.nii.gz', 
+        'RibFrac423-image.nii.gz', 
+        'RibFrac424-image.nii.gz',
+        ...,]
+        
 Tutorials
 --------------------------------
 
