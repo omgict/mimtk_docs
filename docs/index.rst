@@ -21,7 +21,7 @@ statistics, etc.
 
 Directory analysis and management
     For a given public or private medical image dataset, just putting a root dir parameter, 
-    the mimtk will analyze the folder stucture automatically and feedback all the subjects
+    the mimtk will analyze the folder stucture automatically and feedback all subjects
     under the folder.
 
 
@@ -74,7 +74,7 @@ Getting started
 
         Output:
         (1, 325, 512, 512)
-        
+
 Tutorials
 --------------------------------
 
