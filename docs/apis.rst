@@ -1,2 +1,2 @@
-mimtk APIs 
+APIs 
 ==========
