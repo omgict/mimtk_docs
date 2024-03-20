@@ -37,6 +37,15 @@ Simple preview or visualization for the image data
 Getting started
 ---------------
 
+.. sourcecode:: python 
+    from mimtk.subjects import Subject, SubDB
+    dbroot = 'RibFrac2020/ribfrac-val-images'
+    db = SubDB(dbroot)
+    `There are 80 subjects found under directory "RibFrac2020/ribfrac-val-images" as follows:
+    [...,
+    ...,]`
+    db.prints()
+
 Tutorials
 --------------------------------
 
