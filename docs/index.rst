@@ -19,8 +19,6 @@ Mecial Image Management Toolkit (mimtk) is a python package developped for more 
 management of medical image datasets. The basic functions includes: directory analysis, io, management, mask operations, visualization,
 statistics, etc.
 
-test--auto
-
 Directory analysis and management
     For a given public or private medical image dataset, just putting a root dir parameter, 
     the mimtk will analyze the folder stucture automatically and feedback all the subjects
