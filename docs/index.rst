@@ -7,13 +7,10 @@ mimtk Documents
    :hidden:
    :caption: Getting started
 
-   /tutorial/index
-   /choosing-a-site
-   /intro/getting-started-with-sphinx
-   /intro/getting-started-with-mkdocs
-   /intro/import-guide
-   /examples
-
+   /index
+   /installing
+   /tutorials
+   /apis
 
 Introduction
 ------------
