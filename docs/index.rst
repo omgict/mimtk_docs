@@ -39,7 +39,7 @@ Getting started
 
     .. sourcecode:: python 
 
-        from mimtk.subjects import Subject, SubDB
+        from mimtk.subjects import SubDB
         dbroot = 'RibFrac2020/ribfrac-val-images'
         db = SubDB(dbroot)
         db.prints()
@@ -63,6 +63,17 @@ Getting started
         'RibFrac423-image.nii.gz', 
         'RibFrac424-image.nii.gz',
         ...,]
+
+    .. sourcecode:: python 
+
+        db.at(0).load_image_data()
+        print(db.at(0).image.shape)
+    
+
+    .. sourcecode:: text 
+
+        Output:
+        (1, 325, 512, 512)
         
 Tutorials
 --------------------------------
