@@ -2,6 +2,19 @@
 mimtk Documents
 ======================
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Getting started
+
+   /tutorial/index
+   /choosing-a-site
+   /intro/getting-started-with-sphinx
+   /intro/getting-started-with-mkdocs
+   /intro/import-guide
+   /examples
+
+
 Introduction
 ------------
 
